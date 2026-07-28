@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Benedikt Gleissl – Baumpflege &amp; Baumfällung am Ammersee | Fünfseenland Baumschnitt</title>
+<meta name="description" content="Fünfseenland Baumschnitt – Benedikt Gleissl aus Dießen am Ammersee: fachgerechte Baumpflege, Baumfällung mit Seilklettertechnik und Kran, Sanierung alter Obstbäume, Baumkontrolle und Neupflanzung. Seit 2014.">
+<meta property="og:title" content="Benedikt Gleissl – Baumpflege am Ammersee">
+<meta property="og:description" content="Fachgerechte Baumpflege, Baumfällung und Obstbaumsanierung im Fünfseenland – mit Herz, Handwerk und Respekt vor dem Baum.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/hero.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%231d3a2a'/%3E%3Cpath d='M32 10c-9 8-16 15-16 24a16 16 0 0 0 13 15.7V56h6v-6.3A16 16 0 0 0 48 34c0-9-7-16-16-24z' fill='%238fbc8f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Fünfseenland Baumschnitt – Benedikt Gleissl",
+  "description": "Baumpflege, Baumfällung, Sanierung alter Obstbäume, Baumkontrolle und Baumpflanzung im Fünfseenland und rund um den Ammersee.",
+  "founder": {"@type": "Person", "name": "Benedikt Gleissl"},
+  "foundingDate": "2014",
+  "areaServed": "Fünfseenland, Ammersee, Dießen, Oberbayern",
+  "address": {"@type": "PostalAddress", "addressLocality": "Dießen am Ammersee", "addressRegion": "Bayern", "addressCountry": "DE"}
+}
+</script>
+<style>
+:root{
+  --green-deep:#1d3a2a;
+  --green-mid:#2c5540;
+  --green-leaf:#6f9e6f;
+  --cream:#f6f3ea;
+  --paper:#fdfcf8;
+  --ink:#22281f;
+  --muted:#5d6657;
+  --accent:#b07d3f;
+  --radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;font-size:17px}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.15;color:var(--green-deep)}
+img{max-width:100%;display:block}
+a{color:var(--green-mid)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.eyebrow{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
+section{padding:88px 0}
+.btn{display:inline-block;padding:15px 30px;border-radius:999px;font-weight:600;font-size:16px;text-decoration:none;transition:transform .15s ease, box-shadow .15s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--green-deep);color:#fff;box-shadow:0 6px 18px rgba(29,58,42,.28)}
+.btn-ghost{background:rgba(255,255,255,.14);color:#fff;border:1.5px solid rgba(255,255,255,.55);backdrop-filter:blur(4px)}
+.btn-dark-ghost{background:transparent;color:var(--green-deep);border:1.5px solid var(--green-deep)}
+
+/* Header */
+header{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .25s ease, box-shadow .25s ease;padding:18px 0}
+header.scrolled{background:rgba(253,252,248,.96);box-shadow:0 2px 18px rgba(0,0,0,.08);padding:10px 0}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+.brand svg{width:40px;height:40px;flex:none}
+.brand-name{font-family:'Fraunces',serif;font-weight:700;font-size:19px;line-height:1.1;color:#fff;transition:color .25s}
+.brand-sub{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.75);transition:color .25s}
+header.scrolled .brand-name{color:var(--green-deep)}
+header.scrolled .brand-sub{color:var(--muted)}
+nav.menu{display:flex;gap:28px}
+nav.menu a{color:#fff;text-decoration:none;font-weight:500;font-size:15.5px;transition:color .25s}
+nav.menu a:hover{color:var(--green-leaf)}
+header.scrolled nav.menu a{color:var(--ink)}
+.nav-cta{background:var(--accent);color:#fff !important;padding:9px 20px;border-radius:999px}
+.nav-cta:hover{color:#fff !important;filter:brightness(1.08)}
+.burger{display:none;background:none;border:none;cursor:pointer;padding:6px}
+.burger span{display:block;width:26px;height:2.5px;background:#fff;margin:5.5px 0;border-radius:2px;transition:.25s}
+header.scrolled .burger span{background:var(--green-deep)}
+
+/* Hero */
+.hero{position:relative;min-height:92vh;display:flex;align-items:center;color:#fff;padding:140px 0 90px}
+.hero-bg{position:absolute;inset:0;background:url('assets/hero.jpg') center/cover no-repeat}
+.hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(100deg,rgba(18,38,26,.82) 0%,rgba(18,38,26,.55) 45%,rgba(18,38,26,.25) 100%)}
+.hero .wrap{position:relative;z-index:2}
+.hero h1{color:#fff;font-size:clamp(34px,5.2vw,60px);font-weight:700;max-width:15em;margin-bottom:20px}
+.hero p.lead{font-size:clamp(17px,2vw,21px);max-width:34em;color:rgba(255,255,255,.92);margin-bottom:34px}
+.hero .cta-row{display:flex;gap:16px;flex-wrap:wrap}
+.hero-badges{display:flex;gap:26px;flex-wrap:wrap;margin-top:52px}
+.hero-badge{font-size:14.5px;font-weight:500;color:rgba(255,255,255,.9);display:flex;align-items:center;gap:9px}
+.hero-badge svg{width:19px;height:19px;flex:none}
+
+/* Über */
+.about{background:var(--paper)}
+.about .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}
+.about h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:22px}
+.about p{margin-bottom:16px;color:var(--muted)}
+.about p strong{color:var(--ink)}
+.quote-card{background:var(--green-deep);color:#fff;border-radius:var(--radius);padding:34px 36px;margin-top:28px;position:relative}
+.quote-card p{font-family:'Fraunces',serif;font-size:21px;line-height:1.45;color:#fff;margin:0 0 10px}
+.quote-card cite{font-size:14px;color:rgba(255,255,255,.75);font-style:normal}
+.about-img{border-radius:var(--radius);overflow:hidden;box-shadow:0 18px 50px rgba(29,58,42,.22)}
+.about-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}
+.fact{background:var(--cream);border-radius:12px;padding:18px 16px;text-align:center}
+.fact b{display:block;font-family:'Fraunces',serif;font-size:26px;color:var(--green-mid)}
+.fact span{font-size:13.5px;color:var(--muted)}
+
+/* Leistungen */
+.services{background:var(--cream)}
+.services h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:14px}
+.services .sub{max-width:40em;color:var(--muted);margin-bottom:48px}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.svc{background:#fff;border-radius:var(--radius);padding:32px 28px;box-shadow:0 4px 20px rgba(29,58,42,.07);transition:transform .2s ease, box-shadow .2s ease}
+.svc:hover{transform:translateY(-5px);box-shadow:0 14px 34px rgba(29,58,42,.13)}
+.svc .icon{width:52px;height:52px;border-radius:13px;background:var(--green-deep);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+.svc .icon svg{width:27px;height:27px}
+.svc h3{font-size:20px;margin-bottom:10px}
+.svc p{font-size:15.5px;color:var(--muted)}
+
+/* Bildband */
+.band{padding:0;background:var(--cream)}
+.band .strip{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.band .strip img{width:100%;height:340px;object-fit:cover}
+
+/* Referenz */
+.reference{background:var(--paper)}
+.reference .grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:64px;align-items:center}
+.reference h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:20px}
+.reference p{color:var(--muted);margin-bottom:16px}
+.ref-img{border-radius:var(--radius);overflow:hidden;box-shadow:0 18px 50px rgba(29,58,42,.22)}
+.checklist{list-style:none;margin-top:22px}
+.checklist li{display:flex;gap:12px;align-items:flex-start;margin-bottom:13px;color:var(--ink);font-weight:500}
+.checklist svg{width:22px;height:22px;flex:none;margin-top:2px}
+
+/* Region */
+.region{background:var(--green-deep);color:#fff;text-align:center}
+.region h2{color:#fff;font-size:clamp(26px,3.2vw,38px);margin-bottom:16px}
+.region p{color:rgba(255,255,255,.85);max-width:44em;margin:0 auto 34px}
+.chips{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:760px;margin:0 auto}
+.chip{padding:9px 20px;border-radius:999px;border:1.5px solid rgba(255,255,255,.35);font-size:15px;color:#fff;background:rgba(255,255,255,.07)}
+
+/* Kontakt */
+.contact{background:var(--paper)}
+.contact .grid{display:grid;grid-template-columns:1fr 1.1fr;gap:60px;align-items:start}
+.contact h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:18px}
+.contact p{color:var(--muted);margin-bottom:22px}
+.contact-item{display:flex;gap:15px;align-items:flex-start;margin-bottom:20px}
+.contact-item .ci{width:44px;height:44px;border-radius:12px;background:var(--cream);display:flex;align-items:center;justify-content:center;flex:none}
+.contact-item .ci svg{width:22px;height:22px}
+.contact-item b{display:block;font-size:15.5px}
+.contact-item span, .contact-item a{font-size:15px;color:var(--muted)}
+form{background:#fff;border-radius:var(--radius);padding:36px;box-shadow:0 8px 30px rgba(29,58,42,.1)}
+form h3{font-size:21px;margin-bottom:20px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+.field input,.field textarea{width:100%;padding:12px 14px;border:1.5px solid #dcd8cc;border-radius:10px;font:inherit;font-size:15.5px;background:var(--paper)}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--green-mid)}
+form button{width:100%;border:none;cursor:pointer}
+.form-note{font-size:13px;color:var(--muted);margin-top:12px;text-align:center}
+.form-ok{display:none;background:#e8f3e8;border:1.5px solid var(--green-leaf);color:var(--green-deep);border-radius:10px;padding:14px;margin-top:14px;font-weight:500;text-align:center}
+
+/* Footer */
+footer{background:#152b1f;color:rgba(255,255,255,.72);padding:44px 0;font-size:14.5px}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer a{color:rgba(255,255,255,.85);text-decoration:none;margin-left:22px}
+footer a:hover{color:#fff}
+
+/* Reveal – gated so hidden preview tabs still paint (html.js + visible) */
+html.js body.tab-visible .reveal{opacity:0;transform:translateY(26px);transition:opacity .6s ease, transform .6s ease}
+html.js body.tab-visible .reveal.shown{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){
+  html.js body.tab-visible .reveal{opacity:1;transform:none;transition:none}
+}
+
+@media (max-width: 900px){
+  section{padding:64px 0}
+  .about .grid,.reference .grid,.contact .grid{grid-template-columns:1fr;gap:40px}
+  .svc-grid{grid-template-columns:1fr 1fr}
+  .band .strip{grid-template-columns:1fr;}
+  .band .strip img{height:260px}
+  .about-facts{grid-template-columns:repeat(3,1fr)}
+  nav.menu{display:none;position:absolute;top:100%;left:0;right:0;background:var(--paper);flex-direction:column;gap:0;padding:12px 0;box-shadow:0 14px 30px rgba(0,0,0,.14)}
+  nav.menu.open{display:flex}
+  nav.menu a{color:var(--ink);padding:13px 26px}
+  .nav-cta{margin:10px 26px 4px;text-align:center}
+  .burger{display:block}
+}
+@media (max-width: 560px){
+  .svc-grid{grid-template-columns:1fr}
+  .about-facts{grid-template-columns:1fr;gap:12px}
+  .hero{min-height:86vh}
+}
+</style>
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#1d3a2a"/><path d="M32 10c-9 8-16 15-16 24a16 16 0 0 0 13 15.7V56h6v-6.3A16 16 0 0 0 48 34c0-9-7-16-16-24z" fill="#8fbc8f"/></svg>
+      <span>
+        <span class="brand-name">Benedikt Gleissl</span><br>
+        <span class="brand-sub">Fünfseenland Baumschnitt</span>
+      </span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu">
+      <a href="#ueber">Über mich</a>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#referenz">Referenz</a>
+      <a href="#region">Einsatzgebiet</a>
+      <a href="#kontakt" class="nav-cta">Beratung anfragen</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="wrap">
+    <span class="eyebrow" style="color:#d9b57c">Baumpflege · Baumfällung · Obstbaumsanierung</span>
+    <h1>Baumpflege mit Herz und Handwerk – am Ammersee zuhause.</h1>
+    <p class="lead">Ich bin Benedikt Gleissl, Baumpfleger aus Dießen am Ammersee. Seit 2014 kümmere ich mich mit meinem Team um Pflanzung, Pflege und Fällung von Bäumen im gesamten Fünfseenland – fachgerecht, sicher und mit Respekt vor jedem Baum.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#kontakt">Kostenlose Beratung anfragen</a>
+      <a class="btn btn-ghost" href="#leistungen">Unsere Leistungen</a>
+    </div>
+    <div class="hero-badges">
+      <span class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="#8fbc8f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Seit 2014 selbstständig</span>
+      <span class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="#8fbc8f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Spezialist für alte Obstbäume</span>
+      <span class="hero-badge"><svg viewBox="0 0 24 24" fill="none" stroke="#8fbc8f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Seilklettertechnik &amp; Kranfällung</span>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="ueber">
+  <div class="wrap grid">
+    <div class="reveal">
+      <span class="eyebrow">Über mich</span>
+      <h2>Auf Bäumen zuhause – seit dem 16. Lebensjahr.</h2>
+      <p>Geboren in Starnberg, aufgewachsen am Ammersee: Bäume begleiten mich, seit ich denken kann. Schon mit 16 Jahren habe ich begonnen, Bäume zu schneiden – aus der Leidenschaft wurde ein Beruf.</p>
+      <p>Eigentlich bin ich <strong>Diplom-Betriebswirt</strong>. Doch die Liebe zu den Bäumen war stärker als der studierte Beruf: 2014 habe ich mich mit <strong>Fünfseenland Baumschnitt</strong> selbstständig gemacht. Heute kümmere ich mich mit meinem Team um Pflanzung, Pflege und Fällung von Bäumen – mit besonderer Expertise in der <strong>Sanierung und dem Erhalt alter Obstbäume</strong> sowie bei <strong>Kranfällungen</strong>.</p>
+      <p>Falsche Schnitte zeigen ihre Folgen oft erst nach 20 Jahren. Deshalb arbeite ich so, dass der Baum langfristig gesund bleibt – nicht nur bis zum nächsten Frühjahr.</p>
+      <div class="quote-card">
+        <p>„Bäume sind für mich Lebewesen."</p>
+        <cite>— Benedikt Gleissl</cite>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="about-img"><img src="assets/obstbaum.jpg" alt="Fachgerechter Schnitt eines alten Obstbaums auf einer Streuobstwiese"></div>
+      <div class="about-facts">
+        <div class="fact"><b>2014</b><span>selbstständig seit</span></div>
+        <div class="fact"><b>20+</b><span>Jahre auf Bäumen</span></div>
+        <div class="fact"><b>100&nbsp;%</b><span>Herzblut &amp; Handwerk</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="leistungen">
+  <div class="wrap">
+    <span class="eyebrow">Leistungen</span>
+    <h2 class="reveal">Alles rund um Ihren Baum – aus einer Hand.</h2>
+    <p class="sub reveal">Von der ersten Beratung über den fachgerechten Schnitt bis zur anspruchsvollen Kranfällung: Wir übernehmen jede Aufgabe mit derselben Sorgfalt.</p>
+    <div class="svc-grid">
+      <div class="svc reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#8fbc8f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-7"/><path d="M12 15a6 6 0 0 0 6-6c0-4-6-7-6-7s-6 3-6 7a6 6 0 0 0 6 6z"/></svg></div>
+        <h3>Baumpflege &amp; Kronenschnitt</h3>
+        <p>Fachgerechter Schnitt für gesunde, verkehrssichere und schöne Bäume – vom Jungbaum bis zum alten Riesen.</p>
+      </div>
+      <div class="svc reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#8fbc8f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4l6 6-9 9H5v-6z"/><path d="M13 5l6 6"/></svg></div>
+        <h3>Baumfällung &amp; Kranfällung</h3>
+        <p>Sichere Fällung auch an schwierigen Standorten – mit Seilklettertechnik oder Kran, stückweise und kontrolliert.</p>
+      </div>
+      <div class="svc reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#8fbc8f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M12 13v8"/><path d="M9 18h6"/></svg></div>
+        <h3>Sanierung alter Obstbäume</h3>
+        <p>Unser Spezialgebiet: alte Apfel-, Birn- und Zwetschgenbäume behutsam sanieren und für viele weitere Jahrzehnte erhalten.</p>
+      </div>
+      <div class="svc reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#8fbc8f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h3>Baumkontrolle &amp; Verkehrssicherheit</h3>
+        <p>Regelmäßige Kontrolle auf Standsicherheit und Bruchgefahr – damit Ihr Baum keine Gefahr für Menschen und Gebäude wird.</p>
+      </div>
+      <div class="svc reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#8fbc8f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13"/><path d="M12 8c0-3 2.5-5 5-5 0 3-2 5-5 5z"/><path d="M12 12c0-3-2.5-5-5-5 0 3 2 5 5 5z"/><path d="M7 21h10"/><path d="M9 16h6l1 5H8z"/></svg></div>
+        <h3>Baumpflanzung</h3>
+        <p>Wo ein Baum weichen muss, pflanzen wir nach: standortgerechte Auswahl, fachgerechte Pflanzung und Anwuchspflege.</p>
+      </div>
+      <div class="svc reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#8fbc8f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>Baumschutz &amp; Sanierung</h3>
+        <p>Kronensicherung, Baumschutz auf Baustellen und Sanierungsmaßnahmen, damit wertvolle Altbäume erhalten bleiben.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="band">
+  <div class="strip">
+    <img src="assets/kran.jpg" alt="Kranfällung: Stammstück wird über ein Wohnhaus gehoben">
+    <img src="assets/obstbaum.jpg" alt="Obstbaumschnitt auf einer Streuobstwiese im Fünfseenland">
+    <img src="assets/pflanzung.jpg" alt="Neupflanzung eines jungen Baums">
+  </div>
+</div>
+
+<section class="reference" id="referenz">
+  <div class="wrap grid">
+    <div class="ref-img reveal"><img src="assets/ammersee.jpg" alt="Weiden am Ufer des Ammersees in den Dießener Seeanlagen"></div>
+    <div class="reveal">
+      <span class="eyebrow">Referenz</span>
+      <h2>Im Auftrag der Gemeinde: die Seeanlagen in Dießen.</h2>
+      <p>Bäume direkt am Wasser, mitten im öffentlichen Raum – das sind Aufgaben, die Erfahrung und Fingerspitzengefühl verlangen. Im Zuge der Sanierung der Dießener Seeanlagen hat unser Team im Auftrag der Gemeinde eine der großen alten Weiden am Mühlbachufer fachgerecht und sicher gefällt.</p>
+      <p>Bäume, die zur Gefahr werden, müssen weichen – aber nie ersatzlos: Neupflanzungen sorgen dafür, dass das Ortsbild und der Lebensraum erhalten bleiben.</p>
+      <ul class="checklist">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="#2c5540" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Arbeiten im öffentlichen Raum &amp; für Kommunen</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="#2c5540" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Sichere Fälltechnik auch an heiklen Standorten</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="#2c5540" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Nachpflanzung statt kahler Lücken</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="region" id="region">
+  <div class="wrap">
+    <span class="eyebrow" style="color:#d9b57c">Einsatzgebiet</span>
+    <h2 class="reveal">Im ganzen Fünfseenland für Sie unterwegs.</h2>
+    <p class="reveal">Von Dießen aus betreuen wir private Gärten, Streuobstwiesen, Firmengelände und kommunale Anlagen rund um den Ammersee und im gesamten Fünfseenland.</p>
+    <div class="chips reveal">
+      <span class="chip">Dießen am Ammersee</span>
+      <span class="chip">Utting</span>
+      <span class="chip">Schondorf</span>
+      <span class="chip">Herrsching</span>
+      <span class="chip">Andechs</span>
+      <span class="chip">Raisting</span>
+      <span class="chip">Weilheim</span>
+      <span class="chip">Starnberg</span>
+      <span class="chip">Landsberg am Lech</span>
+      <span class="chip">Tutzing</span>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="kontakt">
+  <div class="wrap grid">
+    <div class="reveal">
+      <span class="eyebrow">Kontakt</span>
+      <h2>Lassen Sie uns über Ihren Baum sprechen.</h2>
+      <p>Ob ein einzelner Obstbaum im Garten oder eine anspruchsvolle Fällung: Schreiben Sie mir kurz, worum es geht – ich melde mich zeitnah mit einer ehrlichen Einschätzung und einem fairen Angebot.</p>
+      <div class="contact-item">
+        <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="#2c5540" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <div><b>Standort</b><span>Dießen am Ammersee · Einsatz im ganzen Fünfseenland</span></div>
+      </div>
+      <div class="contact-item">
+        <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="#2c5540" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <div><b>Termine</b><span>Besichtigung &amp; Beratung nach Vereinbarung</span></div>
+      </div>
+      <div class="contact-item">
+        <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="#2c5540" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="#2c5540" stroke="none"/></svg></div>
+        <div><b>Social Media</b><a href="https://www.instagram.com/benediktgleissl/" target="_blank" rel="noopener">@benediktgleissl auf Instagram</a></div>
+      </div>
+    </div>
+    <form id="contactForm" class="reveal">
+      <h3>Unverbindliche Anfrage</h3>
+      <div class="field"><label for="f-name">Ihr Name</label><input id="f-name" type="text" name="name" required></div>
+      <div class="field"><label for="f-contact">Telefon oder E-Mail</label><input id="f-contact" type="text" name="contact" required></div>
+      <div class="field"><label for="f-msg">Worum geht es?</label><textarea id="f-msg" name="message" rows="4" placeholder="z. B. alter Apfelbaum braucht einen Pflegeschnitt …" required></textarea></div>
+      <button type="submit" class="btn btn-primary">Anfrage senden</button>
+      <div class="form-ok" id="formOk">Vielen Dank! Ihre Anfrage ist angekommen – Sie hören in Kürze von mir.</div>
+      <p class="form-note">Ihre Daten werden nur zur Bearbeitung der Anfrage verwendet.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Benedikt Gleissl · Fünfseenland Baumschnitt · Dießen am Ammersee</span>
+    <span>
+      <a href="#ueber">Über mich</a>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#kontakt">Kontakt</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+if (!document.hidden) document.body.classList.add('tab-visible');
+document.addEventListener('visibilitychange', function(){
+  if (!document.hidden) document.body.classList.add('tab-visible');
+});
+
+var header = document.getElementById('siteHeader');
+function onScroll(){ header.classList.toggle('scrolled', window.scrollY > 30); }
+window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+var burger = document.getElementById('burger'), menu = document.getElementById('menu');
+burger.addEventListener('click', function(){ menu.classList.toggle('open'); });
+menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ menu.classList.remove('open'); }); });
+
+if ('IntersectionObserver' in window){
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('shown'); io.unobserve(e.target); } });
+  }, {threshold: .12});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+} else {
+  document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('shown'); });
+}
+
+document.getElementById('contactForm').addEventListener('submit', function(ev){
+  ev.preventDefault();
+  document.getElementById('formOk').style.display = 'block';
+  this.querySelector('button').disabled = true;
+});
+</script>
+
+</body>
+</html>
