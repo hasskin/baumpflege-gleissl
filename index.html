@@ -94,7 +94,8 @@ header.scrolled .burger span{background:var(--green-deep)}
 .quote-card{background:var(--green-deep);color:#fff;border-radius:var(--radius);padding:34px 36px;margin-top:28px;position:relative}
 .quote-card p{font-family:'Fraunces',serif;font-size:21px;line-height:1.45;color:#fff;margin:0 0 10px}
 .quote-card cite{font-size:14px;color:rgba(255,255,255,.75);font-style:normal}
-.about-img{border-radius:var(--radius);overflow:hidden;box-shadow:0 18px 50px rgba(29,58,42,.22)}
+.about-img{border-radius:var(--radius);overflow:hidden;box-shadow:0 18px 50px rgba(29,58,42,.22);margin:0;background:#fff}
+.about-img figcaption{font-size:13.5px;color:var(--muted);padding:12px 16px;line-height:1.45}
 .about-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}
 .fact{background:var(--cream);border-radius:12px;padding:18px 16px;text-align:center}
 .fact b{display:block;font-family:'Fraunces',serif;font-size:26px;color:var(--green-mid)}
@@ -126,6 +127,13 @@ header.scrolled .burger span{background:var(--green-deep)}
 .checklist{list-style:none;margin-top:22px}
 .checklist li{display:flex;gap:12px;align-items:flex-start;margin-bottom:13px;color:var(--ink);font-weight:500}
 .checklist svg{width:22px;height:22px;flex:none;margin-top:2px}
+
+/* Holz */
+.wood{background:var(--paper)}
+.wood .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}
+.wood h2{font-size:clamp(26px,3.2vw,38px);margin-bottom:18px}
+.wood p{color:var(--muted);margin-bottom:16px}
+.wood-img{border-radius:var(--radius);overflow:hidden;box-shadow:0 18px 50px rgba(29,58,42,.22)}
 
 /* Presse */
 .press{background:var(--cream)}
@@ -181,7 +189,7 @@ html.js body.tab-visible .reveal.shown{opacity:1;transform:none}
 
 @media (max-width: 900px){
   section{padding:64px 0}
-  .about .grid,.reference .grid,.contact .grid{grid-template-columns:1fr;gap:40px}
+  .about .grid,.reference .grid,.contact .grid,.wood .grid{grid-template-columns:1fr;gap:40px}
   .svc-grid{grid-template-columns:1fr 1fr}
   .press-grid{grid-template-columns:1fr}
   .band .strip{grid-template-columns:1fr;}
@@ -216,6 +224,7 @@ html.js body.tab-visible .reveal.shown{opacity:1;transform:none}
       <a href="#ueber">Über mich</a>
       <a href="#leistungen">Leistungen</a>
       <a href="#referenz">Referenz</a>
+      <a href="#holz">Holz-Handwerk</a>
       <a href="#presse">Presse</a>
       <a href="#region">Einsatzgebiet</a>
       <a href="#kontakt" class="nav-cta">Beratung anfragen</a>
@@ -249,14 +258,17 @@ html.js body.tab-visible .reveal.shown{opacity:1;transform:none}
       <p>Geboren in Starnberg, aufgewachsen am Ammersee: Bäume begleiten mich, seit ich denken kann. Schon mit 16 Jahren habe ich begonnen, Bäume zu schneiden – aus der Leidenschaft wurde ein Beruf.</p>
       <p>Eigentlich bin ich <strong>Diplom-Betriebswirt</strong>. Doch die Liebe zu den Bäumen war stärker als der studierte Beruf: 2014 habe ich mich mit <strong>Fünfseenland Baumschnitt</strong> selbstständig gemacht. Heute kümmere ich mich mit meinem Team um Pflanzung, Pflege und Fällung von Bäumen – mit besonderer Expertise in der <strong>Sanierung und dem Erhalt alter Obstbäume</strong> sowie bei <strong>Kranfällungen</strong>.</p>
       <p>Falsche Schnitte zeigen ihre Folgen oft erst nach 20 Jahren. Deshalb arbeite ich so, dass der Baum langfristig gesund bleibt – nicht nur bis zum nächsten Frühjahr.</p>
-      <p>Auch abseits der Bäume packe ich an: In Augsburg habe ich das Kulturprojekt <strong>Grandhotel Cosmopolis</strong> mit aufgebaut – meine Diplomarbeit darüber wurde mit der Note 1,0 bewertet.</p>
+      <p>Ich nenne meine Arbeit <strong>Lebens(t)raumgestaltung</strong>: Baumpflege, Holz-Handwerk und Kunstprojekte gehören für mich zusammen. In Augsburg habe ich das Kulturprojekt <strong>Grandhotel Cosmopolis</strong> mit aufgebaut – meine Diplomarbeit darüber wurde mit der Note 1,0 bewertet; bis heute wirke ich in zwei Kulturvereinen mit.</p>
       <div class="quote-card">
         <p>„Bäume sind für mich Lebewesen."</p>
         <cite>— Benedikt Gleissl</cite>
       </div>
     </div>
     <div class="reveal">
-      <div class="about-img"><img src="assets/obstbaum.jpg" alt="Fachgerechter Schnitt eines alten Obstbaums auf einer Streuobstwiese"></div>
+      <figure class="about-img">
+        <img src="assets/benedikt-baum.jpg" alt="Benedikt Gleissl beim Schnitt eines alten Obstbaums auf einer Streuobstwiese am Ammersee">
+        <figcaption>Benedikt Gleissl bei der Arbeit – Pflegeschnitt an einem alten Obstbaum im Frühjahr.</figcaption>
+      </figure>
       <div class="about-facts">
         <div class="fact"><b>2014</b><span>selbstständig seit</span></div>
         <div class="fact"><b>20+</b><span>Jahre auf Bäumen</span></div>
@@ -328,6 +340,18 @@ html.js body.tab-visible .reveal.shown{opacity:1;transform:none}
         <li><svg viewBox="0 0 24 24" fill="none" stroke="#2c5540" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Nachpflanzung statt kahler Lücken</li>
       </ul>
     </div>
+  </div>
+</section>
+
+<section class="wood" id="holz">
+  <div class="wrap grid">
+    <div class="reveal">
+      <span class="eyebrow">Zweites Standbein</span>
+      <h2>Holz-Handwerk: Küchen aus lebendigen Vollholzplatten.</h2>
+      <p>Ein Baum endet für mich nicht am Sägeblatt. Neben der Baumpflege plane und baue ich <strong>Upcycling-Patchwork-Küchen</strong> aus lebendigen Vollholzplatten – jedes Stück Holz mit eigener Geschichte, Maserung und Kante.</p>
+      <p>So bleibt aus einem gefällten Baum etwas, das über Generationen weiterlebt: ein Tisch, eine Arbeitsplatte, eine ganze Küche. Wer Interesse hat, spricht mich einfach an.</p>
+    </div>
+    <div class="wood-img reveal"><img src="assets/holz.jpg" alt="Arbeitsplatte aus Patchwork-Vollholz mit natürlichen Baumkanten"></div>
   </div>
 </section>
 
